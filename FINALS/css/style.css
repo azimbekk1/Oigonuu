@@ -1,0 +1,366 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+   
+    background-image:url('../img/Rectangle\ 133.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.sait{height: 100px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: rgb(7, 75, 59);
+    display: flex;
+    justify-content:center;
+    }
+    .aty{background-color: #FFFFFF;
+        width: 300px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 30px;
+margin-right: 150px;
+    }
+    .list{margin-top: 7px;
+        font-size: 30px;
+        font-weight: 200;
+        text-align: center;
+        letter-spacing: 5px;
+        color: rgb(58, 199, 242);
+    }
+    span{color: yellow;}
+    .menu{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .menu_kurs{
+       
+    }
+   .l{color: #FFFFFF;}
+
+.text_kurs{
+    
+    width: 63px;
+    height: 23px;
+   margin: 50px;
+   margin-bottom: 80px;
+    
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #FFFFFF
+}
+.l:hover:hover{
+    color: red;
+    text-decoration: underline;
+}
+.h1_block1{width: 872px;
+    height: 65px;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 65px;
+    
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-top: 90px;
+    margin-left: 400px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    .logo{
+        margin-top: 50px;
+        margin-left: 500px;
+        margin-right: 200px;
+        display: flex;
+        justify-content: space-around;
+overflow: hidden;
+       
+    }
+    .english{
+        transition: all 0.02s ease 0s;
+    }
+    .english:hover{
+        transform:translate(0px, 0px) ;
+    }
+    .eng:hover{width: 90px;
+    height: 90px;
+    border: 2px solid black;
+background-color: #0060FC;}
+    .nemes{ transition: all 0.2ms ease 0s;
+
+    }
+    .nemes:hover{
+        transform:translate(0px, 0px) ;
+    }
+    .nem:hover{width: 90px;
+        height: 90px;
+        border: 2px solid black;
+        background-color: #0060FC;
+    }
+    .russian{ transition: all 0.02s ease 0s;
+
+    }
+    .russian:hover{transform:translate(0px, 0px) ;}
+.rus:hover{width: 90px;
+    height: 90px;
+    border: 2px solid black;
+    background-color: #0060FC;}
+    .japon{transition: all 0.02s ease 0s;
+
+    }
+    .japon:hover{transform:translate(0px, 0px) ;}
+.jap:hover{width: 90px;
+    height: 90px;
+border: 2px solid black;
+background-color: #0060FC;
+}
+    .anim{
+        width: 500px;
+        height: 50px;
+        border: 5px solid black;
+        box-shadow: 4px 4px 4px slategrey ;
+        background-color:bisque;
+        border-radius: 30px;
+        margin: 20px 0 0 570px;
+
+    }
+    .shar{
+        width: 45px;
+        height: 45px;
+        background-color: black;
+        border-radius: 50%;
+
+        left: 0;
+        position: relative;
+        animation: renderr 5s ease-in-out infinite ;
+        
+    }
+
+    @keyframes renderr{
+        0%{left: 0;
+            background-color:green}
+            50%{
+                left: 450px;
+                background-color: red;
+            }
+    }
+    .test{
+        width: 442px;
+height: 39px;
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+
+
+color: #eefab1;
+margin: 10px 0 0 500px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+    .test{}
+
+    .testt{margin: 40px 0 0 1000px;
+        width: 200px;
+        height: 40px;
+        border-radius: 15%;
+        background-color: rgb(221, 223, 221);
+   align-items: center;
+        box-shadow: 5px 5px 5px gray;
+        
+       
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+    .testt{transition:all 0.8s ease 0.2s ;}
+    .testt:hover{transform: translate(5px,10px);
+
+    }
+    .testt:hover{width: 220px;
+    height: 45px;
+box-shadow: 10px 10px 10px slategray;
+
+}
+
+    .testt:hover{
+        color: aqua;
+        text-decoration: underline;
+    }
+    .col{}
+    .tema2{padding-top: 200px;
+        font-size: 80px;
+        color: black;
+        font-weight: 400;
+        text-align: center;
+    }
+    .podtema{
+        font-size: 40px;
+        font-weight: 200;
+        color: black;
+        margin: 100px 0 0 120px;
+        text-decoration: underline solid rgb(25, 170, 210);
+    }
+    .minut{width: 87%;
+        height: 60px;
+        margin: 60px 0 0 100px;
+        border: 3px solid black;
+        border-radius: 10px ;
+        display: flex;
+        justify-content: space-around;
+    }
+    .min30{
+        font-size: 25px;
+        font-weight: 200;
+        align-items: center;
+    }
+    .min30:hover{font-size: 30px;
+       color: aqua;
+    }
+    .kvadrat{margin-top:  50px; 
+        display: flex;
+justify-content: space-around;
+    }
+    .urok{
+        background-color: blanchedalmond;
+box-sizing: border-box;
+
+
+width: 297px;
+height: 416px;
+
+
+border: 1px solid #000000;
+border-radius: 15px;
+
+    }
+    .wow{margin-top: 20px;
+        font-size: 30px;
+    font-weight: 200;
+color: #000000;
+text-align: center;}
+.sab{background-color: #0060FC;
+    height: 30px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mugal{font-size: 20px;
+font-weight: 200;
+margin: 20px 0 0 25px;}
+.pul{background-color: green;
+    font-size: 22px;
+    font-weight: 200;
+    margin: 40px 0 0 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+.asty{width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: red;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    align-items: center;
+    margin: 80px 0 0 60px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.asty:hover{animation: render 15s ease ;}
+@keyframes render{
+    0%{
+        width: 165px;
+        height: 50px;
+    }
+    50%{
+        width: 165px;
+        height: 50px;
+    }
+}
+
+
+.footerr{margin-top: 30px;
+width: 100%;
+    height: 130px;
+    background-color: rgb(148, 145, 145);
+   
+}
+.block{ display: flex;
+    justify-content: center;
+   
+
+}
+.polka{margin: 40px 0 0 50px;
+    transition:all 0.8s ease 0.2s ;}
+.link{width: 60px;
+    height: 60px;
+    
+    border-radius: 50%;
+   
+}
+.polka:hover{transform: translate(5px,10px);}
+.link:hover{width: 70px;
+height: 70px;}
+
+
+
+
+   

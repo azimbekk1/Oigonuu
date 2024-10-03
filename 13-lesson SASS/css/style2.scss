@@ -1,0 +1,40 @@
+@import "nullstyle.scss";
+
+.tpl{font-size: 30px;
+color: rgb(70, 68, 68);}
+$color_1:blue;
+$fontsize:40px;
+@mixin fontz($f){
+   font-size: $f;
+}
+body{background-color: ivory;
+   padding-top: 100px;
+   width: 100%;
+   height: auto;
+}
+
+
+h1{@include fontz( 80px);
+color: black;
+text-shadow: 3px 5px 3px rgb(120, 116, 116);
+text-align: center;
+&:first-letter{color: red;
+   font-size: 120px;
+font-style: italic;}
+}
+.list{
+@extend .tpl
+
+}
+.list:hover{
+   color:green;}
+
+.link{
+color: $color_1;
+font-size: $fontsize;
+text-decoration: underline (dashed );
+
+}.link:active{color: yellow;}
+
+
+

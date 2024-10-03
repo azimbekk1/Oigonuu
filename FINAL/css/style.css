@@ -1,0 +1,90 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+   
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/barcel.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    box-sizing: border-box;
+}
+.img_barsa{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.display_barsa{
+    display: flex;
+    justify-content: space-around;
+}
+.text_barsa{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+
+}
+.logo{
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 10px 0 0;
+}
+.menu_barsa{margin: 10px;
+cursor: pointer;}
+.text_barsa:hover{
+    color: red;
+}
+.block1{border: 1px solid red;
+width: 650px;
+height: 500px;
+margin-left : 50px; ;
+}
+.text{
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+.h1_block1{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+
+}
+.p_p_block1{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.p_block1{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 90px;
+}

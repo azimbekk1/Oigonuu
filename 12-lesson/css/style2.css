@@ -1,0 +1,58 @@
+body{
+    background-image: url(../img/2020.jpg);
+    background-repeat: no-repeat;
+ background-color: rgb(240, 247, 235);
+}
+
+div{padding: 100px;
+    width: 900px;
+margin: 440px 0 0 0;
+height: 100px;}
+
+.li{
+    color:white;
+    font-size: 60px;
+}
+.li::after{
+content: '"';
+font-size: 30px;
+color: rgb(252, 250, 250);
+}
+.li::before{
+    content: '"';
+    font-size: 30px;
+color: rgb(249, 246, 246);
+}
+    
+.azi{
+    font-size: 35px;
+    color: black;
+    box-shadow: 0 0 5px 0 ;
+    width: 400px;
+}
+.t{
+    font-size: 40px;
+    color: blue;
+}
+.t::after{
+    content: ':';
+    font-size: 40px;
+    color: blue ;
+}
+.f{
+    font-size: 40px;
+    color: blue;
+}
+.text:hover{
+    color: royalblue;
+}
+.link:visited{
+    color: blue;
+}
+.list li:active{
+    background-color: yellow;
+}.list li::before{content: '';
+font-family: 'Courier New', Courier, monospace;
+margin: 0 0 10px 0;
+
+}

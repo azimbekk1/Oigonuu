@@ -1,0 +1,115 @@
+
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+   }
+   *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   :focus,:active{outline: none;}
+   a:focus,a:active{outline: none;}
+   nav,footer,header,aside{display: block;}
+   html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+   }
+   input,button,textarea{font-family:inherit;}
+   input::-ms-clear{display: none;}
+   button{cursor: pointer;}
+   button::-moz-focus-inner {padding:0;border:0;}
+   a, a:visited{text-decoration: none;}
+   a:hover{text-decoration: none;}
+   ul li{list-style: none;}
+   img{vertical-align: top;}
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+   /*--------------------*/
+   body{
+      padding: 0px;
+    
+    }
+    .block{
+      
+      height: 1500px;
+    }
+    .block div{
+      line-height: 60px;
+      font-size: 20px;
+      font-weight: 700px;
+      text-align: center;
+    }
+    .block1{
+      background-color: green;
+      position: sticky;
+      top: 0;
+    }
+    .block2{
+      background-color: #707070;
+      position: sticky;
+      top: 60px;
+      z-index: 1;
+    }
+    .block3{
+      background-color: #a0a0a0;
+      position: sticky;
+      top: 60px;
+      z-index: 2;
+    }
+    .block4{
+      background-color: #f0f0f0;
+      position: sticky;
+      top: 60px;
+      z-index: 3;
+    }
+    .block5{
+      background-color: #ffd700;
+      position: sticky;
+      top: 60px;
+      z-index: 4;
+    }
+    .block6{
+      background-color: #4169e1;
+    
+    }
+    .block7{
+      background-color: #4169e1;
+    
+    }
+    .block8{
+      background-color: #4169e1;
+    
+    }
+    .block9{
+      background-color: #4169e1;
+    
+    }
+    .block10{
+      background-color: #4169e1;
+    
+    }
+    .block11{
+      background-color: #4169e1;
+    
+    }.block12{
+      background-color: #4169e1;
+    
+    }
+    .block13{
+      background-color: #4169e1;
+    }
+    .block14{
+      background-color: #4169e1;
+    
+    }.block15{
+      background-color: #4169e1;
+    
+    }
